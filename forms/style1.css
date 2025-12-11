@@ -1,0 +1,39 @@
+*{
+   /* background-color: black; */
+     /* color:white; */
+            margin: auto;
+            inset:0;
+}
+form{
+     background-color: aqua;
+     width:400px;
+     margin-top: 200px;
+     border-radius: 25px;
+     /* box-shadow: 5px 5px blue; */
+     border: 2px solid blue;
+}
+label{
+    display: block;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button{
+    display:block ;
+    margin-top:15px;
+    justify-content: space-between;
+}
+
+
+
+/* 0% {
+        transform: translateY(500px); 
+    }
+    25% {
+        transform: translateX(500px);
+    }
+    50% {
+        transform: translateY(500px);
+    }
+    100% {
+        transform: translateX(500px);
+    } */
