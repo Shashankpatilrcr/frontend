@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body >
+    <h3 id="item1" style="padding: 5px">item1</h3 >
+    <h3 id="item2" style="padding: 5px">item2</h3 >
+    <h3 id="item3" style="padding: 5px">item3</h3 >
+    
+<button id="highlightbtn" style="margin-top: 10px;">Highlight Items</button>
+
+
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        
+        <script>
+            $(document).ready(function(){
+              $('#highlightbtn').click(function(){
+                $('#item1').css("background-color","violet")
+                $('#item2').css("background","red")
+                $('#item3').css("background","purple")
+                $("body").css("background","blue")
+              }); 
+
+            });
+        </script>
+</body>
+</html>

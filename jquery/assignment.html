@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p>This is a paragraph </p>
+    <div class="box" style="width: 120px; height: 60px; background-color: rgb(230, 206, 173);
+    padding: 10px;">
+       box
+    </div>
+    <button id="stylebtn" style="margin-top: 10px;">Add border</button>
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script>
+             
+              $('#stylebtn').click(function(){
+            $("h1,p,.box").css("border","2px solid blue")
+              });
+         
+        </script>
+</body>
+</html>
